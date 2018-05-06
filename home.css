@@ -1,0 +1,124 @@
+html,
+body{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+}
+
+body{
+    background-image: url(imagini/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 30px 15px;
+    margin: 0;
+    list-style-type: none;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+
+li{
+    margin: 0;
+    display: inline;
+}
+
+li a{
+    padding:15px 35px;
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: Verdana;
+    transition: 1s all;
+}
+
+li a:visited{
+    color: white;
+}
+
+li a:hover{
+    background-color: rgba(12,156,103,0.7);
+}
+
+.slide{
+    background-color: white;
+    margin-top: 10%;
+    height: 40%;
+    box-shadow:0 0 20px black;
+    display: flex;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.slide:hover{
+    box-shadow: 0 0 20px white;
+}
+
+.slide:last-child{
+    margin-bottom: 5%;
+}
+
+.imagine{
+    margin: 1% 2% 1% 2%;
+    position:relative;
+    background-color:rgba(0,0,0,0.5);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    width: 20%;
+}
+
+.text{
+    font-size: 1vw;
+    vertical-align: middle;
+    padding: 10px 10px;
+    margin-top: 1%;
+    line-height: 1.4;
+    font-family: Verdana;
+}
+
+table{
+    margin-left: 10%;
+    position: relative;
+    margin-top: 2%;
+    height: 80%;
+}
+
+table:last-child{
+    margin-left: 0;
+    margin-right: 5%;
+}
+
+th{
+    padding: 15px 15px;
+    font-size: 22px;
+    font-family: Verdana;
+}
+
+.glande
+tr:nth-child(odd)
+th:nth-child(odd) {
+    background-color: grey;
+    color: white;
+}
+
+.glande
+tr:nth-child(even)
+th:nth-child(even) {
+    background-color: grey;
+    color: white;
+}
+
+.functii
+tr:nth-child(odd) {
+    background-color: grey;
+    color: white;
+}
+
